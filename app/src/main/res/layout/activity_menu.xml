@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmenu"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340px">
+
+        <LinearLayout
+            android:layout_width="60px"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuide"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@drawable/btnhowtoplay" />
+
+            <Button
+                android:id="@+id/btnSound"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@drawable/btnsoundon" />
+
+            <Button
+                android:id="@+id/btnInformation"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@drawable/btninformation" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="400px"
+                android:layout_height="120px"
+                android:layout_gravity="end"
+                android:background="@drawable/logo" />
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="400px"
+                android:layout_height="200px"
+                android:layout_gravity="end"
+                android:background="@drawable/btnplay" />
+
+            <Button
+                android:id="@+id/btnQuit"
+                android:layout_width="400px"
+                android:layout_height="200px"
+                android:layout_gravity="end"
+                android:background="@drawable/btnquit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200px"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+
+
+</TableLayout>
